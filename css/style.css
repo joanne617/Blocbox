@@ -70,6 +70,24 @@ html, body{
      width: 1170px;
    }
  }
+/* for TVs */
+ @media (min-width: 1600px) {
+   .container {
+     width: 1578px;
+   }
+    .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
+   }
+   h1 { background-color: #76C0C9;
+         text-shadow: 1 1 1 #000; }
+ }
+
 
   /* HEADER */
  header {
