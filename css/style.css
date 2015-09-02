@@ -46,6 +46,36 @@ html, body{
 
  /* --- MEDIA QUERIES --- */
 
+ /* media query for mobile */
+
+@media (max-width: 480px) {
+
+    header nav.container .one-half a.site-logo img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding-bottom: 20px;
+    }
+
+ header nav.container .one-half ul{
+   margin: 0 auto;
+   float: none;
+    }
+
+ header .container.hero h1 {
+   margin: 15px 0 0 0;
+   }
+   header .container.hero img {
+      width: 100%;
+    }
+
+ 
+
+ }
+
+
+ /* end media query for mobile */
+
  @media (min-width: 768px) {
    .container {
      width: 750px;
@@ -373,5 +403,25 @@ html, body{
      padding: 2em 0 2em 1.5em;
    }
  }
+@media (max-width: 480px){
+   footer .logo{
+   padding: 0 0 2em 0em;
+ }
+
+ footer p, footer nav ul {
+    font-size: 14px;
+    font-weight: 100;
+    margin: 0px auto 0;
+    text-align: center;
+}
+}
 
  /* end footer */
+
+ /* responisve issues to fix -
+
+> alignment/positioning of logo, sign up & sign in buttons
+> non-responsive hero image
+> footer positions, logo missing and/or background color issues
+
+*/
