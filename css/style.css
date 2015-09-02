@@ -273,6 +273,11 @@ html, body{
  .testimonials ul li {
    list-style-type: none;
  }
+
+ .testimonials ul li:nth-of-type(2n) {
+   list-style-type: none;
+   padding-top: 20px;
+ }
  .testimonials blockquote {
    color:#FFFFFF;
    text-align: left;
