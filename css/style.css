@@ -585,6 +585,16 @@ html, body{
    margin:5px 0 0;
  }
 
+ .items a:active {
+   background-color: #3498DB;
+ }
+
+ /* or */
+
+ .items a.active {
+   background-color: #3498DB;
+ }
+
  /* end footer */
 
  /* responisve issues to fix -
