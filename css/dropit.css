@@ -27,6 +27,8 @@
 	padding: 20px;
 	margin: 20px 0 0;
 }
+
+
 .dropit .dropit-open .dropit-submenu { 
     display: block;
     background: #fff;
@@ -70,8 +72,8 @@
     float: right;
     display: inline-block;
 }
-.dropitUp .dropit-triggerUp { position: relative; }
-.dropitUp .dropit-submenuUp {
+.dropitUp .dropitUp-trigger { position: relative; }
+.dropitUp .dropitUp-submenu {
     position: absolute;
     top: 100%;
     left: 0; /* dropdown left or right */
@@ -82,14 +84,14 @@
     padding: 20px;
     margin: 20px 0 0;
 }
-.dropitUp .dropit-openUp .dropit-submenuUp { 
+.dropitUp .dropitUp-open .dropitUp-submenu { 
     display: block;
     background: #fff;
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0,30);
     border-radius: 4px;
      }
 
-.dropitUp .dropit-openUp .dropit-submenuUp:after {
+.dropitUp .dropitUp-open .dropitUp-submenu:after {
       content: " ";
       position: absolute;
       border-style: solid;
@@ -102,14 +104,14 @@
       right: 10px;
  }
 
- .dropitUp .dropit-openUp .dropit-submenuUp li {
+ .dropitUp .dropitUp-open .dropitUp-submenu li {
   display: block;
   margin-bottom: 20px;
  }
- .dropitUp .dropit-openUp .dropit-submenuUp li:last-child {
+ .dropitUp .dropitUp-open .dropitUp-submenu li:last-child {
   margin-bottom: 0px;
  }
- .dropitUp .dropit-openUp .dropit-submenuUp li a {
+ .dropitUp .dropitUp-open .dropitUp-submenu li a {
   color:#34495E;
   text-decoration: none;
   font-family: "Lato", Helvetica, Arial, sans-serif;
