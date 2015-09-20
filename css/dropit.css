@@ -19,7 +19,7 @@
 .dropit .dropit-submenu {
     position: absolute;
     top: 100%;
-    left: 0; /* dropdown left or right */
+    right: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
     min-width: 100px;
@@ -62,60 +62,4 @@
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight:100;
  }
-
-/* new classes for up */
-
-.dropitUp {
-    list-style: none;
-    padding: 0;
-    margin: 15px 0 0;
-    float: right;
-    display: inline-block;
-}
-.dropitUp .dropitUp-trigger { position: relative; }
-.dropitUp .dropitUp-submenu {
-    position: absolute;
-    top: 100%;
-    left: 0; /* dropdown left or right */
-    z-index: 1000;
-    display: none;
-    min-width: 100px;
-    list-style: none;
-    padding: 20px;
-    margin: 20px 0 0;
-}
-.dropitUp .dropitUp-open .dropitUp-submenu { 
-    display: block;
-    background: #fff;
-    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0,30);
-    border-radius: 4px;
-     }
-
-.dropitUp .dropitUp-open .dropitUp-submenu:after {
-      content: " ";
-      position: absolute;
-      border-style: solid;
-      border-width: 0 8px 8px;
-      border-color: #fff transparent;
-      display: block;
-      width: 0;
-      z-index: 1;
-      top: -8px;
-      right: 10px;
- }
-
- .dropitUp .dropitUp-open .dropitUp-submenu li {
-  display: block;
-  margin-bottom: 20px;
- }
- .dropitUp .dropitUp-open .dropitUp-submenu li:last-child {
-  margin-bottom: 0px;
- }
- .dropitUp .dropitUp-open .dropitUp-submenu li a {
-  color:#34495E;
-  text-decoration: none;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight:100;
- }
-
 
